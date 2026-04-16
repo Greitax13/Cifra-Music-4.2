@@ -4,7 +4,6 @@ app.secret_key = 'segredo_super_importante'  # necessário para usar session
 import mysql.connector
 
 
-
 # ========= CONEXÃO COM BANCO ==========
 def conectar():
     return mysql.connector.connect(
